@@ -5,11 +5,11 @@ void main()
 char day[100];
 printf("enter the day ");
 scanf("%s",day);
-if((strcmp(day=="sunday"))||(strcmp(day=="saturday")))
+if((strcmp(day=="monday"))||(strcmp(day=="tuesday"))||(strcmp(day=="wednesday"))||(strcmp(day=="thuresday"))||(strcmp(day=="friday")))
 {
-printf("false");
+printf("true");
 }
 else
-printf("true");
+printf("false");
 getch();
 }
